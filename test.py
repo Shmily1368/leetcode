@@ -1,3 +1,5 @@
 a = [1,2,3]
-for i in range(len(a)):
-    print(i)
+s = "abc"
+print(len(s))
+if "a" in s :
+    print("ok")
