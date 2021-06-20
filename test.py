@@ -3,7 +3,10 @@
 # print(len(s))
 # if "a" in s :
 #     print("ok")
-a = [1]
-b = [1,2,3]
-a+=b[1:]
-print(a)
+# a = [1]
+# b = [1,2,3]
+# a+=b[1:]
+# print(a)
+
+a = "abc"
+print(a[2])
