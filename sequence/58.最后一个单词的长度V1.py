@@ -7,18 +7,14 @@
 # @lc code=start
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        L = len(s)-1
-        ans = 0
-        while L>=0:
-            if s[L] == " ":
-                L-=1
+        while len(s)!=0:
+            if s[-1]==" ":
+                s = s[:-1]
             else:
                 break
-        while L>=0 and s[L]!=" ":
-            ans+=1
-            L-=1
-        return ans
-
+        # a = s.split(" ")
         
+        # print(a)
+        return len(s.split(" ")[-1])
 # @lc code=end
 
